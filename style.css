@@ -1,0 +1,91 @@
+
+body{
+    background-color: rgb(235, 234, 226);
+    /* background: linear-gradient(to right, #399918 ,#06D001, #9BEC00, #FF7777); */
+}
+
+h1{
+    font-size: 50px;
+}
+
+.container{
+    /* display: grid; */
+    align-items: center;
+    justify-content: center;
+    /* background-color: gray; */
+    /* background: linear-gradient(to right, #399918 ,#06D001, #9BEC00, #FF7777); */
+
+    height: 50rem;
+    width: 40rem;
+    margin: auto;
+    padding: 20px;
+}
+
+#ExpenseForm{
+    /* align-items: center; */
+    justify-content: center;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+
+}
+
+
+input ,select{
+    height: 30px;
+    
+}
+
+#btn{
+    background-color: rgb(151, 42, 165);
+    height: 40px;
+}
+
+button{
+    background-color: rgb(145, 255, 0);
+     align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 5rem;
+    
+    
+    
+
+}
+
+#displaydata{
+    background-color: rgb(180, 98, 98);
+    background: linear-gradient(to right, #51f11c ,#17d314, #9be01b, #f34f4f);
+    height: 4rem;
+    font-size: 20px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+
+
+
+
+/* media query start */
+
+@media (max-width: 768px){
+.container{
+    width: 90%;
+    height: auto;
+}
+}
+
+@media (max-width: 480px){
+    .container{
+        width: 60%;
+    }
+}
